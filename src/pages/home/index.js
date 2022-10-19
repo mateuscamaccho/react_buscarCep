@@ -13,7 +13,6 @@ function Home() {
     async function handleConsulta() {
         try {
             const response = await api.get(cep + "/json", {})
-            console.log(response.data)
             setEndereco(response.data)
             setCep('')
         } catch (e) {
