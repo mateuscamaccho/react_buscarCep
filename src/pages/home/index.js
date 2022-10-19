@@ -17,7 +17,7 @@ function Home() {
             setEndereco(response.data)
             setCep('')
         } catch (e) {
-            toast.warn("Nao foi possivel consultar o CEP informado!")
+            toast.error("Nao foi possivel consultar o CEP informado!")
         }
 
     }
