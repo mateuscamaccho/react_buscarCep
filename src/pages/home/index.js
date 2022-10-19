@@ -1,22 +1,22 @@
 import { useState } from 'react';
 import api from '../../service/api';
 import './style.css';
-import logo from '../../imagens/logo.png'
-import bg from '../../imagens/bg.png'
+import logo from '../../imagens/logo.png';
+import bg from '../../imagens/bg.png';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function Home() {
     const [cep, setCep] = useState('');
-    const [endereco, setEndereco] = useState({})
+    const [endereco, setEndereco] = useState({});
 
     async function handleConsulta() {
         try {
-            const response = await api.get(cep + "/json", {})
-            setEndereco(response.data)
-            setCep('')
+            const response = await api.get(cep + "/json", {});
+            setEndereco(response.data);
+            setCep('');
         } catch (e) {
-            toast.error("Nao foi possivel consultar o CEP informado!")
+            toast.error("Nao foi possivel consultar o CEP informado!");
         }
 
     }
