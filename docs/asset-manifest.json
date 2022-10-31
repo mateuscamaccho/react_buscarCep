@@ -2,8 +2,8 @@
   "files": {
     "main.css": "/static/css/main.c328375f.css",
     "main.js": "/static/js/main.583ab802.js",
-    "static/media/bg.png": "./static/media/bg.1a6f61c226cd93940591.png",
-    "static/media/logo.png": "./static/media/logo.f78bb16e4f3d61e92a68.png",
+    "static/media/bg.png": "static/media/bg.1a6f61c226cd93940591.png",
+    "static/media/logo.png": "static/media/logo.f78bb16e4f3d61e92a68.png",
     "index.html": "/index.html",
     "main.c328375f.css.map": "/static/css/main.c328375f.css.map",
     "main.583ab802.js.map": "/static/js/main.583ab802.js.map"
