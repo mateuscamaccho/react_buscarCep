@@ -10,6 +10,8 @@ function RoutesApp() {
             <Header />
             <Routes>
                 <Route path='/' element={<Home />} />
+                <Route path='/react_buscarCep/' element={<Home />} />
+                <Route path='/react_buscarCep/' element={<Home />} />
                 <Route path='/home' element={<Home />} />
                 <Route path='*' element={<Erro />} />
             </Routes>
